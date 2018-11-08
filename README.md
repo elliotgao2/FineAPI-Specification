@@ -5,13 +5,16 @@
     "title": "Blog Service",
     "description": "Blog Service",
     "setting": {
-        "storage": {},
+        "root": "/api",
+        "database": {},
         "cache": {},
+        "upload": {},
         "permission": [
             "IsOwnerOrReadOnly"
         ],
         "authentication": {
             "resource": "User",
+            "type": "jwt",
             "username": "username",
             "password": "password"
         }
