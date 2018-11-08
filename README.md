@@ -5,7 +5,8 @@
     "title": "Blog Service",
     "description": "Blog Service",
     "setting": {
-        "database": {},
+        "storage": {},
+        "cache": {},
         "permission": [
             "IsOwnerOrReadOnly"
         ],
@@ -19,6 +20,12 @@
         "users": {
             "title": "User",
             "description": "User",
+            "search_fields": [
+                "username"
+            ],
+            "filter_fields": [
+                "username"
+            ],
             "fields": {
                 "username": {
                     "type": "String"
@@ -34,6 +41,12 @@
         "articles": {
             "title": "Article",
             "description": "Article",
+            "search_fields": [
+                "username"
+            ],
+            "filter_fields": [
+                "username"
+            ],
             "fields": {
                 "title": {
                     "type": "String"
