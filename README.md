@@ -71,7 +71,7 @@
 
 ## Data Example
 
-`GET https://127.0.0.1/`
+`GET https://127.0.0.1/works`
 
 ```json
 {
@@ -87,7 +87,7 @@
             },
             "self": {
                 "title": "works",
-                "href": "works"
+                "href": "/works"
             },
             "next": {
                 "title": "next page",
