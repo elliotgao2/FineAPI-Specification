@@ -91,11 +91,11 @@
             },
             "next": {
                 "title": "next page",
-                "href": "works?page=2"
+                "href": "/works?page=2"
             },
             "last": {
                 "title": "last page",
-                "href": "works?page=2"
+                "href": "/works?page=2"
             }
         }
     },
@@ -106,7 +106,7 @@
                 "links": {
                     "self": {
                         "title": "Work",
-                        "href": "works/5bd899a9435e700004888e16"
+                        "href": "/works/5bd899a9435e700004888e16"
                     }
                 }
             },
